@@ -1,8 +1,31 @@
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
     <title><%= @page.title %> - <%= @site.name %></title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Carlo Ascani">
+    <meta
+      name="description"
+      content="The personal website of Carlo Ascani, aka harloratm,
+      a web developer located in Pistoia, Italy."
+    >
+
+    <link
+      rel="shortcut icon"
+      href="<%= asset "favicon.ico" %>"
+      type="image/x-icon"
+    >
+    <link
+      rel="stylesheet"
+      href="<%= asset "css/style.css" %>"
+    >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    >
   </head>
   <body>
     <h1><a href="<%= base() %>"><%= @site.name %></a></h1>
