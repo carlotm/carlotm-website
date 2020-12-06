@@ -1,6 +1,7 @@
 :root {
   --white: #fff;
   --black: #000;
+  --black-l: #333;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -86,9 +87,55 @@ p {
 }
 
 a, a:active, a:focus {
-  text-decoration: underline;
+  color: var(--white);
+  text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+.PageHeader {
+  background-color: var(--black);
+  padding: 6%;
+  width: 100%;
+  max-width: 1920px;
+}
+
+.Title {
+  font-weight: 600;
+  line-height: 1.4;
+  font-size: 8rem;
+}
+
+.Title-main {
+  display: block;
+}
+
+.Title-sub {
+  display: block;
+  font-size: 60%;
+}
+
+.LogoSVG {
+  display: block;
+  fill: var(--black-l);
+  width: 100%;
+  max-width: 300px;
+}
+
+.MainNav {
+  border-bottom: 1px solid var(--black-l);
+  border-top: 1px solid var(--black-l);
+  padding: 3% 6%;
+}
+
+.MainNav-item {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.MainNav-item + .MainNav-item {
+  margin-left: 2rem;
 }
