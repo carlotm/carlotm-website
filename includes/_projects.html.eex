@@ -33,8 +33,8 @@ projects = [
 }, %{
   title: "Lazy Speaker Slides",
   desc: "Lazy Speaker Slides lets you create web based presentations in seconds from Markdown.",
-  url_code: "#",
-  url_demo: "#",
+  url_code: "https://github.com/harloratm/lazy-speaker-slides",
+  url_demo: "https://lazy-speaker-slides.netlify.app",
   tags: ["Javascript", "Vue", "HTML", "CSS"]
 }, %{
   title: "Murder She Wrote - The Killers",
