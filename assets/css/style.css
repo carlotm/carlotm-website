@@ -224,3 +224,111 @@ a:hover {
   height: auto;
   width: 100%;
 }
+
+@media only screen and (max-width: 1400px) {
+  .Title {
+    font-size: 6rem;
+  }
+
+  .LogoSVG {
+    max-width: 200px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .Title {
+    font-size: 5rem;
+  }
+
+  .LogoSVG {
+    max-width: 140px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Title {
+    font-size: 4rem;
+  }
+
+  .LogoSVG {
+    max-width: 100px;
+  }
+
+  .Social {
+    margin: 60px 0 40px 0;
+    position: relative;
+    width: 100%;
+    right: auto;
+    left: 0;
+    text-align: right;
+  }
+
+  .Social::after {
+    display: inline-block;
+    height: 1px;
+    margin-left: 10px;
+    width: 80px;
+    top: -10px;
+    position: relative;
+  }
+
+  .Social-link {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-left: 20px;
+  }
+
+  .Social-link svg {
+    height: 24px;
+    width: auto;
+  }
+
+  .Projects {
+    border-top: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Title {
+    font-size: 2.4rem;
+    line-height: 1.6;
+  }
+
+  .LogoSVG {
+    max-width: 64px;
+  }
+
+  .Contacts {
+    font-size: 1.5rem;
+  }
+
+  .Project-title {
+    line-height: 1.6;
+  }
+
+  .Project-links {
+    display: block;
+  }
+
+  .Project-tags {
+    margin-top: 2rem;
+  }
+
+  .Projects-title {
+    font-size: 1.5rem;
+  }
+
+  .Contacts {
+    padding-top: 70px;
+  }
+
+  .Social {
+    text-align: left;
+    margin: 0;
+  }
+
+  .Social::after {
+    display: none;
+    visibility: hidden;
+  }
+}
