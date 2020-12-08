@@ -1,0 +1,69 @@
+<%
+projects = [
+%{
+  title: "Reanimact",
+  desc: "Reanimact is a browser game where you have to align 3 or more animals of the same color.",
+  url_code: "#",
+  url_demo: "#",
+  tags: ["Javascript", "React", "HTML", "CSS"]
+}, %{
+  title: "Vuedoku",
+  desc: "Vuedoku is a web GUI for Sudoku.",
+  url_code: "#",
+  url_demo: "#",
+  tags: ["Javascript", "Vue", "HTML", "CSS"]
+}, %{
+  title: "Vuestermind",
+  desc: "Vuestermind is a web browser implementation of the famous board game Master Mind.",
+  url_code: "#",
+  url_demo: "#",
+  tags: ["Javascript", "Vue", "HTML", "CSS"]
+}, %{
+  title: "Consilium",
+  desc: "Consilium lets you quickly compare two GitHub repositories in a web browser.",
+  url_code: "#",
+  url_demo: "#",
+  tags: ["Javascript", "Vue", "HTML", "CSS"]
+}, %{
+  title: "Umbra",
+  desc: "Umbra is a multi box-shadow generator with load/save capability.",
+  url_code: "#",
+  url_demo: "#",
+  tags: ["Javascript", "Vue", "HTML", "CSS"]
+}, %{
+  title: "Django-Marple",
+  desc: "Django-Marple is a Django application that is able to generate a Living Styleguide based on your project's SASS code.",
+  url_code: "#",
+  url_demo: "#",
+  tags: ["Python", "Django", "CSS"]
+}, %{
+  title: "Lazy Speaker Slides",
+  desc: "Lazy Speaker Slides lets you create web based presentations in seconds from Markdown.",
+  url_code: "#",
+  url_demo: "#",
+  tags: ["Javascript", "Vue", "HTML", "CSS"]
+}, %{
+  title: "Murder She Wrote - The Killers",
+  desc: "Murder She Wrote - The Killers is a website that spoils every episode's killer.",
+  url_code: "#",
+  url_demo: "#",
+  tags: ["Python", "Javascript", "Vue", "Django", "HTML", "CSS"]
+}, %{
+  title: "My codepen snippets",
+  desc: "Misc codepen snippets.",
+  url_code: "#",
+  url_demo: "#",
+  tags: ["sass", "javascript", "Vue"]
+}, %{
+  title: "The other stuff",
+  desc: "You may also find interesting to look at my other GitHub projects.",
+  url_code: "#",
+  url_demo: "#",
+  tags: ["elm", "rust", "go"]
+}]
+%>
+
+<section class="Projects" id="projects">
+  <h2 class="Projects-title">Projects</h2>
+  <%= Enum.map(projects, &(render("_project", project: &1)))  %>
+</section>

@@ -29,12 +29,15 @@
   <body>
     <header class="PageHeader">
       <h1 class="Title">
-        <%= include "_glasses" %>
-        <span class="Title-main">Carlo Ascani</span>
+        <span class="Title-main">
+          Carlo Ascani
+          <%= include "_glasses" %>
+        </span>
         <span class="Title-sub">Web Developer in Italy.</span>
       </h1>
+      <%= include "_contacts" %>
     </header>
-    <%= include "_nav" %>
-    <%= @contents %>
+    <%= include "_social" %>
+    <%= include "_projects" %>
   </body>
 </html>

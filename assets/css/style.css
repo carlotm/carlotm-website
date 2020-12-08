@@ -2,6 +2,8 @@
   --white: #fff;
   --black: #000;
   --black-l: #333;
+  --black-ll: #aaa;
+  --ovo: yellow;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -87,11 +89,12 @@ p {
 }
 
 a, a:active, a:focus {
-  color: var(--white);
+  color: currentcolor;
   text-decoration: none;
 }
 
 a:hover {
+  color: var(--white);
   text-decoration: underline;
 }
 
@@ -104,8 +107,9 @@ a:hover {
 
 .Title {
   font-weight: 600;
-  line-height: 1.4;
+  line-height: 1.2;
   font-size: 8rem;
+  position: relative;
 }
 
 .Title-main {
@@ -118,24 +122,105 @@ a:hover {
 }
 
 .LogoSVG {
-  display: block;
+  display: inline-block;
   fill: var(--black-l);
   width: 100%;
-  max-width: 300px;
+  max-width: 260px;
 }
 
 .MainNav {
   border-bottom: 1px solid var(--black-l);
   border-top: 1px solid var(--black-l);
-  padding: 3% 6%;
+  padding: 2rem 6%;
 }
 
 .MainNav-item {
+  color: var(--black-ll);
   display: inline-block;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.6rem;
 }
 
 .MainNav-item + .MainNav-item {
-  margin-left: 2rem;
+  margin-left: 3rem;
+}
+
+.Projects {
+  border-top: 1px solid var(--black-l);
+  padding: 6rem 6%;
+}
+
+.Projects-title {
+  font-size: 2rem;
+  padding-bottom: 2rem;
+}
+
+.Project {
+  padding: 3rem 0;
+}
+
+.Project + .Project {
+  border-top: 1px solid var(--black-l);
+}
+
+.Project-title {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.Project-links {
+  color: var(--black-ll);
+  font-size: 70%;
+}
+
+.Project-desc {
+  color: var(--black-ll);
+}
+
+.Project-tags {
+  margin-top: 1rem;
+}
+
+.Tag {
+  color: var(--white);
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.Contacts {
+  color: var(--black-ll);
+  padding-top: 30px;
+  font-size: 2rem;
+}
+
+.Contacts a {
+  color: var(--ovo);
+}
+
+.Social {
+  position: fixed;
+  width: 48px;
+  bottom: 0;
+  right: 10%;
+}
+
+.Social::after {
+  content: "";
+  display: block;
+  background-color: var(--black-l);
+  height: 80px;
+  margin-left: 50%;
+  width: 1px;
+}
+
+.Social-link {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.Social-link svg {
+  fill: var(--ovo);
+  height: auto;
+  width: 100%;
 }

@@ -1,8 +1,0 @@
-<nav role="navigation" class="MainNav">
-  <a href="#projects" class="MainNav-item">
-    Projects
-  </a>
-  <a href="#contacts" class="MainNav-item">
-    Contacts
-  </a>
-</nav>

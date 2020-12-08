@@ -7,8 +7,5 @@
   author: "Carlo Ascani",
   author_email: "carlo.ratm@gmail.com",
   posts_source: "",
-  tags_path: "",
-  plugins: [
-    {Serum.Plugins.LiveReloader, only: :dev}
-  ]
+  tags_path: ""
 }

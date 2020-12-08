@@ -1,0 +1,11 @@
+<section class="Social">
+  <a class="Social-link" href="#">
+    <%= include "_twitter" %>
+  </a>
+  <a class="Social-link" href="#">
+    <%= include "_youtube" %>
+  </a>
+  <a class="Social-link" href="#">
+    <%= include "_500px" %>
+  </a>
+</section>
