@@ -1,11 +1,11 @@
 <section class="Social">
-  <a class="Social-link" href="#">
+  <a class="Social-link" href="https://twitter.com/harloratm">
     <%= include "_twitter" %>
   </a>
-  <a class="Social-link" href="#">
+  <a class="Social-link" href="https://www.youtube.com/c/CarloAscani">
     <%= include "_youtube" %>
   </a>
-  <a class="Social-link" href="#">
+  <a class="Social-link" href="https://500px.com/p/harloratm">
     <%= include "_500px" %>
   </a>
 </section>
