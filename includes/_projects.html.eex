@@ -64,6 +64,6 @@ projects = [
 %>
 
 <section class="Projects" id="projects">
-  <h2 class="Projects-title">Projects</h2>
+  <h2 class="sr-only">A list of my recent personal projects</h2>
   <%= Enum.map(projects, &(render("_project", project: &1)))  %>
 </section>
