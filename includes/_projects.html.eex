@@ -31,12 +31,6 @@ projects = [
   url_demo: "#",
   tags: ["Javascript", "Vue", "HTML", "CSS"]
 }, %{
-  title: "Django-Marple",
-  desc: "Django-Marple is a Django application that is able to generate a Living Styleguide based on your project's SASS code.",
-  url_code: "#",
-  url_demo: "#",
-  tags: ["Python", "Django", "CSS"]
-}, %{
   title: "Lazy Speaker Slides",
   desc: "Lazy Speaker Slides lets you create web based presentations in seconds from Markdown.",
   url_code: "#",
