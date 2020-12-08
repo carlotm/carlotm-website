@@ -5,8 +5,8 @@
   <h2 class="Project-title">
     <%= project.title %>
     <span class="Project-links">
-      (<a href="<%= project.url_code %>">source code</a>,
-      <a href="<%= project.url_demo %>">website</a>)
+      <a href="<%= project.url_code %>">source code</a>
+      <a href="<%= project.url_demo %>">website</a>
     </span>
   </h2>
   <div class="Project-desc">

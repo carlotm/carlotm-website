@@ -28,10 +28,10 @@
   </head>
   <body>
     <header class="PageHeader">
+      <%= include "_glasses" %>
       <h1 class="Title">
         <span class="Title-main">
           Carlo Ascani
-          <%= include "_glasses" %>
         </span>
         <span class="Title-sub">Web Developer in Italy.</span>
       </h1>
