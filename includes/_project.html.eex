@@ -5,7 +5,9 @@
   <h2 class="Project-title">
     <%= project.title %>
     <span class="Project-links">
-      <a href="<%= project.url_code %>">source code</a>
+      <%= if project.url_code !== "" do %>
+        <a href="<%= project.url_code %>">source code</a>
+      <% end %>
       <a href="<%= project.url_demo %>">website</a>
     </span>
   </h2>
