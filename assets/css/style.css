@@ -164,10 +164,13 @@ a:hover {
 }
 
 .Tag {
+  border-radius: 4px;
   color: var(--white);
   display: inline-block;
-  font-size: 60%;
-  padding-right: 12px;
+  font-size: 50%;
+  padding: 4px 14px;
+  background-color: #202020;
+  margin-right: 14px;
 }
 
 .Contacts {
@@ -178,24 +181,6 @@ a:hover {
 .Contacts a {
   color: var(--ovo);
   text-decoration: none;
-}
-
-.Social {
-  border-bottom: 1px solid var(--black-l);
-  border-top: 1px solid var(--black-l);
-  padding: 24px 6%;
-}
-
-.Social-link {
-  display: inline-block;
-  padding-right: 1rem;
-}
-
-.Social-link svg {
-  fill: var(--ovo);
-  height: 24px;
-  width: auto;
-  vertical-align: middle;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -233,36 +218,5 @@ a:hover {
 
   .Project {
     font-size: 2rem;
-  }
-
-  .Social {
-    position: fixed;
-    bottom: 0;
-    right: 10%;
-    width: auto;
-    border-bottom: 0;
-    border-top: 0;
-    padding: 0;
-  }
-
-  .Social-link {
-    display: block;
-    margin-bottom: 36px;
-    padding-right: 0;
-  }
-
-  .Social-link svg {
-    height: auto;
-    width: 48px;
-  }
-
-  .Social::after {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 66px;
-    background-color: var(--black-l);
-    margin-left: 50%;
-    transform: translateX(-1px);
   }
 }
