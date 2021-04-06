@@ -5,7 +5,7 @@
   date_format: "{WDfull}, {D} {Mshort} {YYYY}",
   base_url: "/",
   author: "Carlo Ascani",
-  author_email: "carlo.ratm@gmail.com",
+  author_email: "carlotm@pm.me",
   posts_source: "",
   tags_path: ""
 }

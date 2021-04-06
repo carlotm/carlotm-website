@@ -37,7 +37,6 @@
       </h1>
       <%= include "_contacts" %>
     </header>
-    <%= include "_social" %>
     <%= include "_projects" %>
   </body>
 </html>
