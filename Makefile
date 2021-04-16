@@ -8,17 +8,18 @@ pandoc_opts = --from markdown \
 			  --template=$(template) \
 			  --css $(pdf_css)
 
-.PHONY: all clean site
+.PHONY: all clean site deploy
 
-all: site
+all: clean $(public_dir)/index.html $(public_dir)/life_kanban.html $(public_dir)/readings_kanban.html
 
 clean:
 	rm -rf $(public_dir)
 
-$(public_dir)/index.html: index.md $(template)
+$(public_dir)/%.html: content/%.md $(template)
 	mkdir -p $(public_dir) && \
 	pandoc $(pandoc_opts) $< -o $@ && \
 	tr -d \\n < $@ > tmp.html && \
 	mv tmp.html $@
 
-site: clean $(public_dir)/index.html
+deploy: all
+	scp public/* tilde.club:public_html/
