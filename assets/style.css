@@ -1,9 +1,22 @@
-:root {
-  --white: #fff;
-  --white-d: #eee;
-  --black: #101010;
-  --accent: blue;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #101010;
+    --almost-bg: #222;
+    --fg: #fff;
+    --accent: yellow;
+  }
+}
 
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f5f5f5;
+    --almost-bg: #ccc;
+    --fg: #101010;
+    --accent: blue;
+  }
+}
+
+:root {
   --aria: 20px;
 }
 
@@ -36,12 +49,12 @@ footer, header, hgroup, menu, nav, section {
 }
 
 html, body {
+  background-color: var(--bg);
   font-size: 20px;
 }
 
 body {
-  background-color: var(--white);
-  color: var(--black);
+  color: var(--fg);
   line-height: 1;
   font-family: Arial, sans-serif, serif;
   padding-top: calc(var(--aria) * 4);
@@ -103,7 +116,7 @@ body > * {
 section.Project {
   padding-top: calc(var(--aria) * 4);
   padding-bottom: calc(var(--aria) * 4);
-  border-bottom: 1px solid var(--white-d);
+  border-bottom: 1px solid var(--almost-bg);
 }
 
 section.Project:last-of-type {
@@ -152,7 +165,7 @@ section.Project:last-of-type {
   position: relative;
   margin-right: calc(var(--aria) / 2);
   margin-top: calc(var(--aria) / 2);
-  background-color: var(--white-d);
+  background-color: var(--almost-bg);
   font-size: 90%;
   padding: calc(var(--aria) / 4) var(--aria);
   border-radius: 3px;

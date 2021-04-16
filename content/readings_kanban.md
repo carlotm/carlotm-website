@@ -18,4 +18,5 @@
 - Il signor Cardinaud
 - Il grande sonno
 - La belle sauvauge
+- Programming Elixir 1.6
 
