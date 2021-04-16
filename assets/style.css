@@ -140,3 +140,8 @@ section.Project {
   padding: calc(var(--aria) / 2) var(--aria);
   border-radius: 3px;
 }
+
+footer {
+  padding-top: calc(var(--aria) * 2);
+  font-size: 80%;
+}
