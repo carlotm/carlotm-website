@@ -24,6 +24,9 @@ $endfor$
 $if(title)$
 <header id="title-block-header">
 <h1 class="Title">$title$</h1>
+$for(in-header)$
+$in-header$
+$endfor$
 </header>
 $endif$
 $if(toc)$
@@ -39,10 +42,15 @@ $for(include-after)$
 $include-after$
 $endfor$
 <footer>
-  This website is not made with ❤. It is made with
-  <a href="https://pandoc.org">pandoc</a> and a
-  <a href="https://raw.githubusercontent.com/carlotm/carlotm-website/main/Makefile">
-  Makefile</a>.
+  <p>
+    This website is not made with ❤. It is made with
+    <a href="https://pandoc.org">pandoc</a> and a
+    <a href="https://raw.githubusercontent.com/carlotm/carlotm-website/main/Makefile">
+    Makefile</a>.
+  </p>
+  <p>
+    The kanban lists are managed with <a href="https://taskell.app">taskell</a>.
+  </p>
 </footer>
 </body>
 </html>

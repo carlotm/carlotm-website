@@ -1,11 +1,11 @@
 ---
 title: Carlo Ascani
----
+in-header: |
+    I am a web developer currently located in Italy.<br>
+    Drop an email at [carlotm@pm.me](mailto:carlotm@pm.me) or find me on
+    freenode as **carloratm**.<br>
 
-I am a web developer currently located in Italy.<br>
-Drop an email at [carlotm@pm.me](mailto:carlotm@pm.me) or find me on freenode as **carloratm**.<br>
-I keep track of my [TODOs](life_kanban.html) and [readings](readings_kanban.html)
-with [taskell](https://taskell.app).
+---
 
 ## Recent toy projects
 

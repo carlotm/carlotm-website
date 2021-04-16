@@ -6,18 +6,19 @@ pandoc_opts = --from markdown \
 			  --self-contained \
 			  --section-divs \
 			  --template=$(template) \
+			  --toc --toc-depth=2 \
 			  --css $(pdf_css)
 
 .PHONY: all clean site deploy
 
-all: clean $(public_dir)/index.html $(public_dir)/life_kanban.html $(public_dir)/readings_kanban.html
+all: clean $(public_dir)/index.html
 
 clean:
 	rm -rf $(public_dir)
 
-$(public_dir)/%.html: content/%.md $(template)
+$(public_dir)/%.html: content/*.md $(template)
 	mkdir -p $(public_dir) && \
-	pandoc $(pandoc_opts) $< -o $@ && \
+	pandoc $(pandoc_opts) $(filter-out $(template), $?) -o $@ && \
 	tr -d \\n < $@ > tmp.html && \
 	mv tmp.html $@
 

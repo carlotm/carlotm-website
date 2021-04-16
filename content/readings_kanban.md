@@ -3,6 +3,7 @@
 - The Art of Postgresql
 - Designing With fontforge
 - Corso Assembler Amiga
+- Smalltalk Best Practice Patterns
 
 ## Reading
 
@@ -17,3 +18,4 @@
 - Il signor Cardinaud
 - Il grande sonno
 - La belle sauvauge
+
