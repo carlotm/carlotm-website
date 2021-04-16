@@ -45,7 +45,6 @@ body {
   line-height: 1;
   font-family: Arial, sans-serif, serif;
   padding-top: calc(var(--aria) * 4);
-  padding-bottom: calc(var(--aria) * 4);
 }
 
 ol, ul {
@@ -101,13 +100,17 @@ body > * {
 }
 
 body > *:not(header) {
-  margin-bottom: calc(var(--aria) * 4);
+  margin-bottom: calc(var(--aria) * 6);
 }
 
 section.Project {
   padding-top: calc(var(--aria) * 4);
   padding-bottom: calc(var(--aria) * 4);
   border-bottom: 1px solid var(--white-d);
+}
+
+section.Project:last-of-type {
+  border-bottom: 0;
 }
 
 .Project ul {
@@ -142,6 +145,6 @@ section.Project {
 }
 
 footer {
-  padding-top: calc(var(--aria) * 2);
+  /* padding-top: calc(var(--aria) * 2); */
   font-size: 80%;
 }
