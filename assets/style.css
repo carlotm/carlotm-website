@@ -1,23 +1,10 @@
 :root {
   --white: #fff;
-  --white-d: #aaa;
-  --black: #000;
-  --black-l: #333;
-  --accent: yellow;
+  --white-d: #eee;
+  --black: #101010;
+  --accent: blue;
 
-  --aria: 4rem;
-}
-
-@font-face {
-  font-family: Mainfont;
-  src: url(NNR.woff);
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: Mainfont;
-  src: url(NNB.woff);
-  font-weight: bold;
+  --aria: 20px;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -53,11 +40,12 @@ html, body {
 }
 
 body {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--white);
+  color: var(--black);
   line-height: 1;
-  font-family: MainFont, serif;
-  font-size: 20px;
+  font-family: Arial, sans-serif, serif;
+  padding-top: calc(var(--aria) * 4);
+  padding-bottom: calc(var(--aria) * 4);
 }
 
 ol, ul {
@@ -92,82 +80,63 @@ p {
   line-height: 1.6;
 }
 
-a, a:active, a:focus {
-  display: inline-block;
-  color: var(--accent);
-  text-decoration: underline;
+h1, h2, h3 {
+  font-weight: bold;
+  margin-bottom: var(--aria);
 }
 
-a:focus {
-  outline-color: var(--accent);
-  outline-style: solid;
-}
+h1 { font-size: 48px; }
 
-a:hover {
-  color: var(--accent);
-}
+h2 { font-size: 36px; }
+
+h3 { font-size: 24px; }
+
+a { color: var(--accent); }
 
 body > * {
-  margin-left: var(--aria);
-  margin-right: var(--aria);
-  margin-bottom: 4em;
-  max-width: 1200px;
+  max-width: 1040px;
+  margin: 0 auto;
+  padding-left: var(--aria);
+  padding-right: var(--aria);
 }
 
-header {
-  padding-top: var(--aria);
-  padding-bottom: 0;
-}
-
-header + p {
-  font-size: 22px;
-}
-
-.Title {
-  display: block;
-  font-size: 80px;
-  font-weight: bold;
-}
-
-.level2 > h2 {
-  font-size: 36px;
-  font-weight: bold;
-  padding-bottom: 1em;
+body > *:not(header) {
+  margin-bottom: calc(var(--aria) * 4);
 }
 
 section.Project {
-  padding-top: 2em;
-  padding-bottom: 2em;
-  border-bottom: 1px solid var(--black-l);
+  padding-top: calc(var(--aria) * 4);
+  padding-bottom: calc(var(--aria) * 4);
+  border-bottom: 1px solid var(--white-d);
 }
 
-.Project > h3 {
-  font-size: 32px;
-  font-weight: bold;
-}
-
-.Project > h3 a {
-  display: inline-block;
-  margin-left: 10px;
-  font-size: 20px;
-  font-weight: normal;
-}
-
-.Project > p {
-  color: var(--white-d);
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.Project > ul {
+.Project ul {
   list-style: none;
 }
 
-.Project > ul > li {
+.Project ul li {
   display: inline-block;
-  background-color: var(--black-l);
-  padding: 0.4em 0.8em;
+}
+
+.Project h3 a {
+  font-weight: normal;
+  font-size: 76%;
+  display: inline-block;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+
+.Project ul {
+  margin-top: calc(var(--aria) / 2);
+  color: var(--black-l);
+}
+
+.Project ul li {
+  position: relative;
+  margin-right: calc(var(--aria) / 2);
+  margin-top: calc(var(--aria) / 2);
+  background-color: var(--white-d);
+  font-size: 90%;
+  padding: calc(var(--aria) / 2) var(--aria);
   border-radius: 3px;
-  margin-right: 0.4em;
-  margin-top: 0.4em;
 }
