@@ -184,6 +184,13 @@ footer {
   width: calc(100% / 3);
 }
 
+@media only screen and (max-width: 768px) {
+  #to-do, #doing, #done,
+  #to-read, #reading, #read {
+    width: 100%;
+  }
+}
+
 #to-do ul, #doing ul, #done ul,
 #to-read ul, #reading ul, #read ul {
   list-style: none;
