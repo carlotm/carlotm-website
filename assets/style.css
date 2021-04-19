@@ -175,12 +175,14 @@ section.Project:last-of-type {
 footer {
   font-size: 80%;
   clear: both;
+  padding-top: calc(var(--aria) * 6);
 }
 
 #to-do, #doing, #done,
 #to-read, #reading, #read {
   display: block;
   float: left;
+  padding-top: calc(var(--aria) * 4);
   width: calc(100% / 3);
 }
 
@@ -196,6 +198,12 @@ footer {
   list-style: none;
 }
 
-#to-read {
+#todo, #readings {
   clear: both;
+  display: block;
+  width: 100%;
+}
+
+#readings {
+  padding-top: calc(var(--aria) * 4);
 }

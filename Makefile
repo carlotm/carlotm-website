@@ -14,13 +14,17 @@ pandoc_opts = --from markdown \
 all: clean $(public_dir)/index.html
 
 clean:
+	rm -f fullsite.md
 	rm -rf $(public_dir)
 
-$(public_dir)/%.html: content/*.md $(template)
+$(public_dir)/%.html: fullsite.md  $(template)
 	mkdir -p $(public_dir) && \
-	pandoc $(pandoc_opts) $(filter-out $(template), $?) -o $@ && \
+	pandoc $(pandoc_opts) $< -o $@ && \
 	tr -d \\n < $@ > tmp.html && \
 	mv tmp.html $@
+
+fullsite.md: content/*.md
+	m4 $< > $@
 
 deploy: all
 	scp public/* tilde.club:public_html/

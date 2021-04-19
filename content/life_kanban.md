@@ -1,4 +1,4 @@
-## To Do
+### To Do
 
 - CV contents review
 - A song in Protracker
@@ -10,12 +10,12 @@
 - Toy projects review and cleanup
 - SOMA
 
-## Doing
+### Doing
 
 - A new Murder She Wrote in Phoenix
 - Half Life 2
 
-## Done
+### Done
 
 - Identicon Umbrella
 - Identicon Web Api

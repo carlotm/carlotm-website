@@ -92,3 +92,15 @@ You may also find interesting to look at my other GitHub projects.
 - Rust
 - go
 
+## TODO
+
+I find Kanban useful to organize everyday tasks.
+
+include(content/life_kanban.md)
+
+## Readings
+
+Reading books is one of my favourite hobbies.
+
+include(content/readings_kanban.md)
+
