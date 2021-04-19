@@ -4,6 +4,8 @@
 - Designing With fontforge
 - Corso Assembler Amiga
 - Smalltalk Best Practice Patterns
+- Elixir in Action
+- Domain Modeling made Functional
 
 ### Reading
 
