@@ -2,13 +2,14 @@
 
 - CV contents review
 - A song in Protracker
-- Blender project for the new desk
 - Trashware inventory
 - A bitmap font in FF
 - A song in Ardour
 - A GTK3 theme
 - Toy projects review and cleanup
 - SOMA
+- A non-web gui kanban
+- Explore xmonad
 
 ### Doing
 
@@ -19,6 +20,7 @@
 
 - Identicon Umbrella
 - Identicon Web Api
+- Blender project for the new desk
 
 
 

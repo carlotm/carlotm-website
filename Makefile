@@ -20,8 +20,9 @@ clean:
 $(public_dir)/%.html: fullsite.md  $(template)
 	mkdir -p $(public_dir) && \
 	pandoc $(pandoc_opts) $< -o $@ && \
-	tr -d \\n < $@ > tmp.html && \
-	mv tmp.html $@
+	tr -d \\n < $@ > fullsite.html && \
+	rm fullsite.md && \
+	mv fullsite.html $@
 
 fullsite.md: content/*.md
 	m4 $< > $@

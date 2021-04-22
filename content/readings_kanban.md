@@ -6,10 +6,11 @@
 - Smalltalk Best Practice Patterns
 - Elixir in Action
 - Domain Modeling made Functional
+- Cosmic Python
 
 ### Reading
 
-- Veleno Mortale
+- La spia perfetta
 
 ### Read
 
@@ -21,4 +22,5 @@
 - Il grande sonno
 - La belle sauvauge
 - Programming Elixir 1.6
+- Veleno Mortale
 
