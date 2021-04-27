@@ -1,7 +1,6 @@
 ### To Read
 
 - The Art of Postgresql
-- Designing With fontforge
 - Corso Assembler Amiga
 - Smalltalk Best Practice Patterns
 - Elixir in Action
@@ -11,6 +10,7 @@
 ### Reading
 
 - La spia perfetta
+- Designing With fontforge
 
 ### Read
 
