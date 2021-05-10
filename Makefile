@@ -17,14 +17,14 @@ clean:
 	rm -f fullsite.md
 	rm -rf $(public_dir)
 
-$(public_dir)/%.html: fullsite.md  $(template)
+$(public_dir)/index.html: fullsite.md  $(template)
 	mkdir -p $(public_dir) && \
 	pandoc $(pandoc_opts) $< -o $@ && \
 	tr -d \\n < $@ > fullsite.html && \
 	rm fullsite.md && \
 	mv fullsite.html $@
 
-fullsite.md: content/*.md
+fullsite.md: content/index.md content/recent-projects.md content/life-kanban.md content/readings-kanban.md
 	m4 $< > $@
 
 deploy: all

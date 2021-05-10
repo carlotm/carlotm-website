@@ -107,6 +107,15 @@ h3 { font-size: 24px; }
 
 a { color: var(--accent); }
 
+hr {
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background-color: var(--almost-bg);
+  margin-bottom: 0;
+  margin-top: calc(var(--aria) * 4);
+}
+
 body > * {
   padding-left: var(--aria);
   padding-right: var(--aria);
@@ -115,12 +124,6 @@ body > * {
 
 section.Project {
   padding-top: calc(var(--aria) * 4);
-  padding-bottom: calc(var(--aria) * 4);
-  border-bottom: 1px solid var(--almost-bg);
-}
-
-section.Project:last-of-type {
-  border-bottom: 0;
 }
 
 #TOC {
@@ -132,11 +135,10 @@ section.Project:last-of-type {
 
 #TOC li {
   display: inline-block;
-  margin-right: var(--aria);
+  margin-right: calc(var(--aria) * 2);
   padding: var(--aria) 0;
+  line-height: 1.6;
 }
-
-#TOC li:before { content: "/ " }
 
 .Project ul {
   list-style: none;

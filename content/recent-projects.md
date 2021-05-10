@@ -1,15 +1,6 @@
----
-title: ~Carlo Ascani
-in-header: |
-    I am a web developer currently located in Italy.<br>
-    Drop an email at [carlotm@pm.me](mailto:carlotm@pm.me) or find me on
-    freenode as **carloratm**.<br>
+## Recent Personal Projects and coding demos {.clearfix}
 
----
-
-## Recent toy projects
-
-Some recent toy projects you may be interested in.
+Some recent personal projects and coding demos.
 
 ### Reanimact [source code](https://github.com/carlotm/reanimact) [website](https://reanimact.netlify.app) {.Project}
 
@@ -20,14 +11,7 @@ Reanimact is a browser game where you have to align 3 or more animals of the sam
 - HTML
 - CSS
 
-### Vuedoku  [source code](https://github.com/carlotm/vuedoku) [website](https://vuedoku.netlify.app) {.Project}
-
-Vuedoku is a web GUI for Sudoku.
-
-- Javascript
-- Vue
-- HTML
-- CSS
+----
 
 ### Vuestermind [source code](https://github.com/carlotm/vuestermind) [website](https://vuestermind.netlify.app) {.Project}
 
@@ -38,23 +22,29 @@ Vuestermind is a web browser implementation of the famous board game Master Mind
 - HTML
 - CSS
 
+----
+
 ### Arbitrium [source code](https://github.com/carlotm/arbitrium) [website](https://arbitrium.netlify.app) {.Project}
 
 Arbitrium lets you quickly compare two GitHub repositories in a web browser.
+It uses **chart.js** to present data.
 
 - Javascript
 - Vue
 - HTML
 - CSS
 
-### Umbra [source code](https://github.com/carlotm/umbra) [website](https://umbra.netlify.app) {.Project}
+----
 
-Umbra is a multi box-shadow generator with load/save capability.
+### Murder She Wrote - The Killers [source code](https://github.com/carlotm/murder-she-wrote-the-killers) [website](https://murder-she-wrote.gigalixirapp.com) {.Project}
 
-- Javascript
-- Vue
-- HTML
+Murder She Wrote - The Killers is a website that spoils every episode's killer.
+
+- Elixir
+- Phoenix Liveview
 - CSS
+
+----
 
 ### Lazy Speaker Slides [source code](https://github.com/carlotm/lazy-speaker-slides) [website](https://lazy-speaker-slides.netlify.app) {.Project}
 
@@ -65,42 +55,36 @@ Lazy Speaker Slides lets you create web based presentations in seconds from Mark
 - HTML
 - CSS
 
-### Murder She Wrote - The Killers [source code](https://github.com/carlotm/murder-she-wrote-the-killers) [website](https://murder-she-wrote-the-killers.herokuapp.com) {.Project}
+----
 
-Murder She Wrote - The Killers is a website that spoils every episode's killer.
+### Umbra [source code](https://github.com/carlotm/umbra) [website](https://umbra.netlify.app) {.Project}
 
-- Python
+Umbra is a multi box-shadow generator with load/save capability.
+
 - Javascript
 - Vue
-- Django
 - HTML
 - CSS
 
-### My codepen snippets [website](https://codepen.io/carlotm) {.Project}
+----
 
-Misc codepen snippets.
+### Codepen - [codepen.io/carlotm](https://codepen.io/carlotm) {.Project}
+
+My pens on Codepen.
 
 - Sass
 - Javascript
 - Vue
+
+----
 
 ### The other stuff [source code](https://github.com/carlotm) {.Project}
 
 You may also find interesting to look at my other GitHub projects.
 
 - elm
+- Elixir
 - Rust
 - go
 
-## TODO
-
-I find Kanban useful to organize everyday tasks.
-
-include(content/life_kanban.md)
-
-## Readings
-
-Reading books is one of my favourite hobbies.
-
-include(content/readings_kanban.md)
 

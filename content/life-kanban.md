@@ -9,6 +9,7 @@
 - Toy projects review and cleanup
 - SOMA
 - A non-web gui kanban
+- Explore vim lsp
 
 ### Doing
 
