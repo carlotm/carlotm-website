@@ -9,8 +9,7 @@
 
 ### Reading
 
-- La spia perfetta
-- Designing With fontforge
+- Maisie Dobbs
 
 ### Read
 
@@ -23,4 +22,5 @@
 - La belle sauvauge
 - Programming Elixir 1.6
 - Veleno Mortale
+- Designing With fontforge
 

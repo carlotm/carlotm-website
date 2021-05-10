@@ -9,18 +9,18 @@
 - Toy projects review and cleanup
 - SOMA
 - A non-web gui kanban
-- Explore xmonad
 
 ### Doing
 
-- A new Murder She Wrote in Phoenix
 - Half Life 2
+- Blender project for THE DESK
 
 ### Done
 
 - Identicon Umbrella
 - Identicon Web Api
 - Blender project for the new desk
-
+- Explore xmonad
+- A new Murder She Wrote in Phoenix
 
 
