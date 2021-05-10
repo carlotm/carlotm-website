@@ -1,7 +1,5 @@
 ## Recent Personal Projects and coding demos {.clearfix}
 
-Some recent personal projects and coding demos.
-
 ### Reanimact [source code](https://github.com/carlotm/reanimact) [website](https://reanimact.netlify.app) {.Project}
 
 Reanimact is a browser game where you have to align 3 or more animals of the same color.
@@ -68,7 +66,7 @@ Umbra is a multi box-shadow generator with load/save capability.
 
 ----
 
-### Codepen - [codepen.io/carlotm](https://codepen.io/carlotm) {.Project}
+### Codepen [codepen.io/carlotm](https://codepen.io/carlotm) {.Project}
 
 My pens on Codepen.
 

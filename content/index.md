@@ -11,13 +11,9 @@ include(content/recent-projects.md)
 
 ## TODO
 
-I find Kanban useful to organize everyday tasks.
-
 include(content/life-kanban.md)
 
 ## Readings
-
-Reading books is one of my favourite hobbies.
 
 include(content/readings-kanban.md)
 
