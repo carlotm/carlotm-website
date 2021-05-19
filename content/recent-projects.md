@@ -22,18 +22,6 @@ Vuestermind is a web browser implementation of the famous board game Master Mind
 
 ----
 
-### Arbitrium [source code](https://github.com/carlotm/arbitrium) [website](https://arbitrium.netlify.app) {.Project}
-
-Arbitrium lets you quickly compare two GitHub repositories in a web browser.
-It uses **chart.js** to present data.
-
-- Javascript
-- Vue
-- HTML
-- CSS
-
-----
-
 ### Murder She Wrote - The Killers [source code](https://github.com/carlotm/murder-she-wrote-the-killers) [website](https://murder-she-wrote.gigalixirapp.com) {.Project}
 
 Murder She Wrote - The Killers is a website that spoils every episode's killer.
