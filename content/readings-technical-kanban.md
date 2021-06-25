@@ -9,18 +9,9 @@
 
 ### Reading
 
-- Maisie Dobbs
 
 ### Read
 
-- La variante di Luneburg
-- Omicidio a Road Hill House
-- Il regno Segreto
-- Trilogia dei Pirati
-- Il signor Cardinaud
-- Il grande sonno
-- La belle sauvauge
 - Programming Elixir 1.6
-- Veleno Mortale
 - Designing With fontforge
 

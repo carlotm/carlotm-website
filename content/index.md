@@ -9,11 +9,15 @@ in-header: |
 
 include(content/recent-projects.md)
 
-## TODO
+## TODO {.Board}
 
 include(content/life-kanban.md)
 
-## Readings
+## Technical readings {.Board}
 
-include(content/readings-kanban.md)
+include(content/readings-technical-kanban.md)
+
+## Fictional readings {.Board}
+
+include(content/readings-fictional-kanban.md)
 

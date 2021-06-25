@@ -96,7 +96,10 @@ p {
 
 h1, h2, h3 {
   font-weight: bold;
-  margin-bottom: var(--aria);
+}
+
+h2 {
+  padding-bottom: calc(var(--aria) * 2);
 }
 
 h1 { font-size: 48px; }
@@ -126,6 +129,10 @@ section.Project {
   padding-top: calc(var(--aria) * 4);
 }
 
+h2 + section.Project {
+  padding-top: calc(var(--aria) * 2);
+}
+
 #TOC {
   display: flex;
   list-style: none;
@@ -136,12 +143,7 @@ section.Project {
 #TOC li {
   display: inline-block;
   margin-right: calc(var(--aria) * 2);
-  padding: var(--aria) 0;
   line-height: 1.6;
-}
-
-.Project ul {
-  list-style: none;
 }
 
 .Project ul li {
@@ -162,8 +164,9 @@ section.Project {
 }
 
 .Project ul li,
-#to-do li, #doing li, #done li,
-#to-read li, #reading li, #read li {
+.Board ul li
+{
+  list-style: none;
   position: relative;
   margin-right: calc(var(--aria) / 2);
   margin-top: calc(var(--aria) / 2);
@@ -174,38 +177,25 @@ section.Project {
   line-height: 1.8;
 }
 
-footer {
-  font-size: 80%;
-  clear: both;
-  padding-top: calc(var(--aria) * 6);
+section.Board {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-#to-do, #doing, #done,
-#to-read, #reading, #read {
-  display: block;
-  float: left;
-  padding-top: calc(var(--aria) * 4);
-  width: calc(100% / 3);
+section.Board > .Board {
+  flex: 1 0 100%;
+}
+
+section.Board section.level3 {
+  flex: 0 0 calc(100% / 3);
 }
 
 @media only screen and (max-width: 768px) {
-  #to-do, #doing, #done,
-  #to-read, #reading, #read {
-    width: 100%;
+  section.Board section.level3 {
+    flex: 1 0 100%;
   }
-}
 
-#to-do ul, #doing ul, #done ul,
-#to-read ul, #reading ul, #read ul {
-  list-style: none;
-}
-
-#todo, #readings {
-  clear: both;
-  display: block;
-  width: 100%;
-}
-
-#readings {
-  padding-top: calc(var(--aria) * 4);
+  section.Board section.level3 + .level3 {
+    margin-top: var(--aria);
+  }
 }

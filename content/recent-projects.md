@@ -1,4 +1,4 @@
-## Recent Personal Projects and coding demos {.clearfix}
+## Personal projects and code
 
 ### Reanimact [source code](https://github.com/carlotm/reanimact) [website](https://reanimact.netlify.app) {.Project}
 
@@ -73,4 +73,4 @@ You may also find interesting to look at my other GitHub projects.
 - Rust
 - go
 
-
+----

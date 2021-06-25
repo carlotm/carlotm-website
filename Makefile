@@ -24,7 +24,7 @@ $(public_dir)/index.html: fullsite.md  $(template)
 	rm fullsite.md && \
 	mv fullsite.html $@
 
-fullsite.md: content/index.md content/recent-projects.md content/life-kanban.md content/readings-kanban.md
+fullsite.md: content/index.md content/recent-projects.md content/life-kanban.md content/readings-technical-kanban.md content/readings-fictional-kanban.md
 	m4 $< > $@
 
 deploy: all
