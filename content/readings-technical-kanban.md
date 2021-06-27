@@ -2,13 +2,13 @@
 
 - The Art of Postgresql
 - Corso Assembler Amiga
-- Smalltalk Best Practice Patterns
 - Elixir in Action
 - Domain Modeling made Functional
 - Cosmic Python
 
 ### Reading
 
+- Smalltalk Best Practice Patterns
 
 ### Read
 
