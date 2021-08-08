@@ -4,9 +4,11 @@
 
 ### Reading
 
+- Partitura finale
 
 ### Read
 
+- A casa prima di notte
 - Maisie Dobbs
 - Una strana nebbia
 - L'amore bugiardo

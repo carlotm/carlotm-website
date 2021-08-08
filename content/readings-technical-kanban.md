@@ -8,10 +8,11 @@
 
 ### Reading
 
-- Smalltalk Best Practice Patterns
+- Programming Phoenix 1.4
 
 ### Read
 
 - Programming Elixir 1.6
 - Designing With fontforge
+- Smalltalk Best Practice Patterns
 
