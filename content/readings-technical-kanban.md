@@ -5,6 +5,7 @@
 - Elixir in Action
 - Domain Modeling made Functional
 - Cosmic Python
+- Manuale ragionato di teoria musicale
 
 ### Reading
 
@@ -15,4 +16,3 @@
 - Programming Elixir 1.6
 - Designing With fontforge
 - Smalltalk Best Practice Patterns
-

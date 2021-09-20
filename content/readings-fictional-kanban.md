@@ -8,6 +8,7 @@
 
 ### Read
 
+- La mia preferita
 - A casa prima di notte
 - Maisie Dobbs
 - Una strana nebbia
@@ -21,4 +22,3 @@
 - Il grande sonno
 - La belle sauvauge
 - Veleno Mortale
-
