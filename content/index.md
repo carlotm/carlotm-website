@@ -9,10 +9,6 @@ in-header: |
 
 include(content/recent-projects.md)
 
-## TODO {.Board}
-
-include(content/life-kanban.md)
-
 ## Technical readings {.Board}
 
 include(content/readings-technical-kanban.md)
