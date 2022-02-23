@@ -5,6 +5,8 @@
     --almost-bg: #222;
     --fg: #fff;
     --accent: yellow;
+    --reading: #685b17;
+    --read: #000;
   }
 }
 
@@ -13,8 +15,10 @@
     --bg: #f5f5f5;
     --bg-image: url('./bg-light.png');
     --almost-bg: #ccc;
-    --fg: #101010;
+    --fg: #000;
     --accent: blue;
+    --reading: #e5c07b;
+    --read: #61afef;
   }
 }
 
@@ -188,16 +192,53 @@ section.Board > .Board {
   flex: 1 0 100%;
 }
 
-section.Board section.level3 {
-  flex: 0 0 calc(100% / 3);
+section.Board > ul {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
-@media only screen and (max-width: 768px) {
-  section.Board section.level3 {
-    flex: 1 0 100%;
-  }
-
-  section.Board section.level3 + .level3 {
-    margin-top: var(--aria);
-  }
+section.Board > ul + ul li {
+  background-color: var(--reading);
 }
+
+section.Board > ul + ul + ul li {
+  background-color: var(--read);
+}
+
+
+/* section.Board > ul { */
+/*   display: flex; */
+/*   flex-wrap: wrap; */
+/*   width: 100%; */
+/*   justify-content: stretch; */
+/*   align-items: stretch; */
+/* } */
+
+/* section.Board li:empty, */
+/* section.Board li:empty ~ li { */
+/*   background-color: teal; */
+/* } */
+
+/* section.Board li:empty ~ li:empty, */
+/* section.Board li:empty ~ li:empty ~ li { */
+/*   background-color: yellow; */
+/* } */
+
+/* section.Board li:empty ~ li:empty ~ li:empty, */
+/* section.Board li:empty ~ li:empty ~ li:empty ~ li { */
+/*   background-color: green; */
+/* } */
+
+/* section.Board li:empty:before { */
+/*   display: block; */
+/*   content: "To Read"; */
+/* } */
+
+/* section.Board li:empty ~ li:empty:before { */
+/*   content: "Reading"; */
+/* } */
+
+/* section.Board li:empty ~ li:empty ~ li:empty:before { */
+/*   content: "Read"; */
+/* } */

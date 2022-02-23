@@ -1,5 +1,4 @@
-### To Read
-
+- **To Read**
 - The Art of Postgresql
 - Corso Assembler Amiga
 - Elixir in Action
@@ -7,12 +6,14 @@
 - Cosmic Python
 - Manuale ragionato di teoria musicale
 
-### Reading
+<!-- -->
 
+- **Reading**
 - A Philosophy of Software Design
 
-### Read
+<!-- -->
 
+- **Read**
 - Programming Elixir 1.6
 - Designing With fontforge
 - Smalltalk Best Practice Patterns
