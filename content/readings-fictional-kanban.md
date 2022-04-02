@@ -1,14 +1,18 @@
 - **To Read**
 - American Gods
+- Loch Down Abbey
+- La famiglia del piano di sopra
+- Il poliziotto che ride
 
 <!-- -->
 
 - **Reading**
-- Fondazione. Il ciclo completo
+- Il caso dei cioccolatini avvelenati
 
 <!-- -->
 
 - **Read**
+- Fondazione. Il ciclo completo
 - Partitura finale
 - La mia preferita
 - A casa prima di notte

@@ -5,6 +5,7 @@
 - Domain Modeling made Functional
 - Cosmic Python
 - Manuale ragionato di teoria musicale
+- Programming erlang software for a concurrent world
 
 <!-- -->
 
