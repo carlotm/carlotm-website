@@ -1,9 +1,10 @@
 ---
 title: ~Carlo Ascani
-in-header: |
-    I am a web developer currently located in Italy.<br>
-    Drop an email at [carlotm@pm.me](mailto:carlotm@pm.me) or find me on
-    libera.chat as **carloratm**.<br>
+intro: |
+    <p>I am a web developer currently located in Vienna, Austria.</p>
+    <p>
+        Find me on <i>libera.chat</i> as <b>carloratm</b>.
+    </p>
 
 ---
 
