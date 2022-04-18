@@ -1,3 +1,4 @@
+content_files = $(wildcard content/*.md)
 pdf_css = $(abspath ./assets/style.css)
 template = $(abspath ./assets/page_template.html)
 public_dir = $(abspath ./public)
@@ -16,15 +17,15 @@ all: clean $(public_dir)/index.html
 clean:
 	rm -f fullsite.md
 	rm -rf $(public_dir)
+	mkdir -p $(public_dir)
 
 $(public_dir)/index.html: fullsite.md  $(template)
-	mkdir -p $(public_dir) && \
-	pandoc $(pandoc_opts) $< -o $@ && \
-	tr -d \\n < $@ > fullsite.html && \
-	rm fullsite.md && \
+	pandoc $(pandoc_opts) $< -o $@
+	tr -d \\n < $@ > fullsite.html
+	rm fullsite.md
 	mv fullsite.html $@
 
-fullsite.md: content/index.md content/recent-projects.md content/readings-technical-kanban.md content/readings-fictional-kanban.md
+fullsite.md: $(content_files)
 	m4 $< > $@
 
 deploy: all
