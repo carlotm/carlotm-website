@@ -10,23 +10,23 @@ pandoc_opts = --from markdown \
 			  --toc --toc-depth=2 \
 			  --css $(pdf_css)
 
-.PHONY: all clean site deploy
+.PHONY: all clean site deploy dev
 
 all: clean $(public_dir)/index.html
 
 clean:
-	rm -f fullsite.md
+	rm -f /tmp/full.md
 	rm -rf $(public_dir)
 	mkdir -p $(public_dir)
 
-$(public_dir)/index.html: fullsite.md  $(template)
+$(public_dir)/index.html: /tmp/full.md $(template)
 	pandoc $(pandoc_opts) $< -o $@
-	tr -d \\n < $@ > fullsite.html
-	rm fullsite.md
-	mv fullsite.html $@
 
-fullsite.md: $(content_files)
+/tmp/full.md: $(content_files)
 	m4 $< > $@
 
 deploy: all
 	scp public/* tilde.club:public_html/
+
+dev: all
+	cd public && python -m http.server
