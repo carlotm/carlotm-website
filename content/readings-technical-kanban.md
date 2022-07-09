@@ -10,11 +10,13 @@
 <!-- -->
 
 - **Reading**
-- A Philosophy of Software Design
+- The Little Elixir & OTP Guidebook
 
 <!-- -->
 
 - **Read**
+- Programming Ecto
+- A Philosophy of Software Design
 - Programming Elixir 1.6
 - Designing With fontforge
 - Smalltalk Best Practice Patterns
