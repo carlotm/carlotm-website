@@ -1,4 +1,5 @@
-- **To Read**
+### To Read
+
 - The Art of Postgresql
 - Corso Assembler Amiga
 - Elixir in Action
@@ -7,14 +8,12 @@
 - Manuale ragionato di teoria musicale
 - Programming erlang software for a concurrent world
 
-<!-- -->
+### Reading
 
-- **Reading**
 - The Little Elixir & OTP Guidebook
 
-<!-- -->
+### Read
 
-- **Read**
 - Programming Ecto
 - A Philosophy of Software Design
 - Programming Elixir 1.6

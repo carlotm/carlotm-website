@@ -1,15 +1,14 @@
-- **To Read**
+### To Read
+
 - American Gods
 - Il poliziotto che ride
 
-<!-- -->
+### Reading
 
-- **Reading**
 - La famiglia del piano di sopra
 
-<!-- -->
+### Read
 
-- **Read**
 - Loch Down Abbey
 - Il caso dei cioccolatini avvelenati
 - Fondazione. Il ciclo completo
