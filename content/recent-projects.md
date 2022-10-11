@@ -30,7 +30,7 @@ Vuestermind is a web browser implementation of the famous board game Master Mind
 
 Murder She Wrote - The Killers is a website that spoils every episode's killer.
 
-[Source code](https://github.com/carlotm/murder-she-wrote-the-killers) [Website](https://murder-she-wrote.gigalixirapp.com)
+[Source code](https://github.com/carlotm/msw) [Website](https://msw.fly.dev/)
 
 - Elixir
 - Phoenix Liveview
