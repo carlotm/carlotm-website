@@ -4,7 +4,7 @@
 
 Reanimact is a browser game where you have to align 3 or more animals of the same color.
 
-[Source code](https://github.com/carlotm/reanimact) [Website](https://reanimact.netlify.app)
+[Website](https://reanimact.netlify.app) - [Source code](https://github.com/carlotm/reanimact)
 
 - Javascript
 - React
@@ -17,7 +17,7 @@ Reanimact is a browser game where you have to align 3 or more animals of the sam
 
 Vuestermind is a web browser implementation of the famous board game Master Mind.
 
-[Source code](https://github.com/carlotm/vuestermind) [Website](https://vuestermind.netlify.app)
+[Website](https://vuestermind.netlify.app) - [Source code](https://github.com/carlotm/vuestermind)
 
 - Javascript
 - Vue
@@ -30,7 +30,7 @@ Vuestermind is a web browser implementation of the famous board game Master Mind
 
 Murder She Wrote - The Killers is a website that spoils every episode's killer.
 
-[Source code](https://github.com/carlotm/msw) [Website](https://msw.fly.dev/)
+[Website](https://msw.fly.dev/) - [Source code](https://github.com/carlotm/msw)
 
 - Elixir
 - Phoenix Liveview
@@ -42,7 +42,7 @@ Murder She Wrote - The Killers is a website that spoils every episode's killer.
 
 Lazy Speaker Slides lets you create web based presentations in seconds from Markdown.
 
-[Source code](https://github.com/carlotm/lazy-speaker-slides) [Website](https://lazy-speaker-slides.netlify.app)
+[Website](https://lazy-speaker-slides.netlify.app) - [Source code](https://github.com/carlotm/lazy-speaker-slides)
 
 - Typescript
 - Vue
@@ -55,7 +55,7 @@ Lazy Speaker Slides lets you create web based presentations in seconds from Mark
 
 Umbra is a multi box-shadow generator with load/save capability.
 
-[Source code](https://github.com/carlotm/umbra) [Website](https://umbra.netlify.app)
+[Website](https://umbra.netlify.app) - [Source code](https://github.com/carlotm/umbra)
 
 - Javascript
 - Vue
