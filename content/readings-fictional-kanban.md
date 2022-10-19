@@ -1,9 +1,7 @@
 ### To Read
 
 - American Gods
-- L'uomo che andò in fumo
 - L'uomo al balcone
-- Il poliziotto che ride
 - L'autopompa fantasma
 - Omicidio al Savoy
 - L'uomo sul tetto
@@ -14,10 +12,12 @@
 
 ### Reading
 
-- Roseanna
+- Blood In The Garden
 
 ### Read
 
+- Roseanna
+- L'uomo che andò in fumo
 - Il poliziotto che ride
 - La famiglia del piano di sopra
 - Loch Down Abbey
