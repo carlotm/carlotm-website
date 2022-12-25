@@ -1,21 +1,20 @@
 ### To Read
 
 - American Gods
-- L'uomo al balcone
-- L'autopompa fantasma
 - Omicidio al Savoy
 - L'uomo sul tetto
 - La camera chiusa
 - Un assassino di troppo
 - Terroristi
-- Blood in the garden
 
 ### Reading
 
-- Blood In The Garden
+- L'autopompa fantasma
 
 ### Read
 
+- L'uomo al balcone
+- Blood In The Garden
 - Roseanna
 - L'uomo che andò in fumo
 - Il poliziotto che ride

@@ -1,20 +1,20 @@
 ### To Read
 
 - The Art of Postgresql
-- Corso Assembler Amiga
 - Elixir in Action
 - Domain Modeling made Functional
 - Cosmic Python
 - Manuale ragionato di teoria musicale
-- Programming erlang software for a concurrent world
 
 ### Reading
 
-- The Little Elixir & OTP Guidebook
+- Programming erlang software for a concurrent world
+- Corso Assembler Amiga
 
 ### Read
 
 - Programming Ecto
+- The Little Elixir & OTP Guidebook
 - A Philosophy of Software Design
 - Programming Elixir 1.6
 - Designing With fontforge
