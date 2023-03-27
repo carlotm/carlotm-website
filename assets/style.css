@@ -148,6 +148,10 @@ body {
   margin: 0 auto;
 }
 
+a:focus, a:active {
+  outline: 2px solid var(--accent);
+}
+
 ol,
 ul {
   list-style: disc;
