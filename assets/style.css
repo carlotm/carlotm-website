@@ -1,7 +1,6 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #101010;
-    --bg-image: url("./bg-dark.png");
     --almost-bg: #222;
     --fg: #fff;
     --accent: yellow;
@@ -13,7 +12,6 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg: #f5f5f5;
-    --bg-image: url("./bg-light.png");
     --almost-bg: #ccc;
     --fg: #000;
     --accent: blue;
@@ -23,91 +21,12 @@
 }
 
 :root {
-  --aria: 20px;
+  --s1: 0.5rem;
+  --s2: 1rem;
+  --s4: 2rem;
 }
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video,
-main {
+* {
   margin: 0;
   padding: 0;
   border: 0;
@@ -118,34 +37,23 @@ main {
   box-sizing: border-box;
 }
 
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-
 html {
   background-color: var(--bg);
-  background-image: var(--bg-image);
-  background-repeat: repeat;
-  font-size: 20px;
 }
 
 body {
   color: var(--fg);
   line-height: 1;
   font-family: Arial, sans-serif, serif;
-  padding-top: calc(var(--aria) * 4);
   max-width: 1040px;
   margin: 0 auto;
+  padding-top: var(--s4);
+}
+
+body > * {
+  padding-left: var(--s4);
+  padding-right: var(--s4);
+  margin-bottom: var(--s4);
 }
 
 a:focus, a:active {
@@ -191,33 +99,31 @@ img {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 1.8;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
   font-weight: bold;
 }
 
-h2 {
-  padding-bottom: calc(var(--aria) * 2);
-}
-
 h1 {
-  font-size: 48px;
+  font-size: 2rem;
+}
+
+h1 + p {
+  margin-top: var(--s2);
 }
 
 h2 {
-  font-size: 36px;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 1.2rem;
 }
 
-h3.Project {
-  line-height: 1.6;
+h3 + p {
+  margin-top: var(--s1);
 }
 
 a {
@@ -225,38 +131,22 @@ a {
 }
 
 hr {
-  border: 0;
-  height: 1px;
-  width: 100%;
-  background-color: var(--almost-bg);
-  margin-bottom: 0;
-  margin-top: calc(var(--aria) * 4);
-}
-
-body > * {
-  padding-left: var(--aria);
-  padding-right: var(--aria);
-  margin-bottom: calc(var(--aria) * 6);
+  display: none;
+  visibility: hidden;
 }
 
 section.Project {
-  padding-top: calc(var(--aria) * 4);
-}
-
-h2 + section.Project {
-  padding-top: calc(var(--aria) * 2);
+  padding-top: var(--s4);
 }
 
 #TOC {
   display: flex;
   list-style: none;
-  margin-top: calc(var(--aria) * -1);
-  margin-bottom: calc(var(--aria) * 5);
 }
 
 #TOC li {
   display: inline-block;
-  margin-right: calc(var(--aria) * 2);
+  margin-right: var(--s4);
   line-height: 1.6;
 }
 
@@ -266,7 +156,6 @@ h2 + section.Project {
 
 .Project > p > a {
   display: inline-block;
-  margin-right: 8px;
 }
 
 .Project ul {
@@ -278,13 +167,11 @@ h2 + section.Project {
 .Board h3 {
   list-style: none;
   position: relative;
-  margin-right: calc(var(--aria) / 2);
-  margin-top: calc(var(--aria) / 2);
+  margin: var(--s1) var(--s1) 0 0;
   background-color: var(--almost-bg);
-  font-size: 90%;
-  padding: calc(var(--aria) / 4) var(--aria);
+  font-size: 0.9rem;
+  padding: var(--s1);
   border-radius: 3px;
-  line-height: 1.8;
 }
 
 section.Board {

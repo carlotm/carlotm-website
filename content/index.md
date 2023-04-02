@@ -3,7 +3,7 @@ title: ~Carlo Ascani
 intro: |
     <p>I am a web developer currently located in Vienna, Austria.</p>
     <p>
-        Find me on <i>libera.chat</i> as <b>carloratm</b>.
+        Find me on libera.chat as <b>carloratm</b>.
     </p>
 
 ---
