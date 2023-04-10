@@ -1,4 +1,4 @@
-## Personal projects and code
+## Personal projects and misc code
 
 ### Reanimact {.Project}
 

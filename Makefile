@@ -26,7 +26,7 @@ $(public_dir)/index.html: /tmp/full.md $(template)
 	m4 $< > $@
 
 deploy: all
-	scp public/* tilde.club:public_html/
+	scp -r public/* tilde.club:public_html/
 
 dev: all
 	cd public && python -m http.server

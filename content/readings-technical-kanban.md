@@ -5,14 +5,15 @@
 - Domain Modeling made Functional
 - Cosmic Python
 - Manuale ragionato di teoria musicale
+- Corso Assembler Amiga
 
 ### Reading
 
-- Programming erlang software for a concurrent world
-- Corso Assembler Amiga
+- Programming Phoenix Liveview
 
 ### Read
 
+- Programming erlang software for a concurrent world
 - Programming Ecto
 - The Little Elixir & OTP Guidebook
 - A Philosophy of Software Design

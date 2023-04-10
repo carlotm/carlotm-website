@@ -1,18 +1,18 @@
 ### To Read
 
 - American Gods
-- Omicidio al Savoy
-- L'uomo sul tetto
-- La camera chiusa
-- Un assassino di troppo
 - Terroristi
 
 ### Reading
 
-- L'autopompa fantasma
+- Un assassino di troppo
 
 ### Read
 
+- Omicidio al Savoy
+- L'uomo sul tetto
+- La camera chiusa
+- L'autopompa fantasma
 - L'uomo al balcone
 - Blood In The Garden
 - Roseanna
