@@ -1,22 +1,6 @@
-@font-face {
-  font-family: "Inter";
-  src: local("Inter"),
-       url("Inter-Regular.ttf") format("truetype");
-  font-weight: normal;
-}
-
-@font-face {
-  font-family: "Inter";
-  src: local("Inter"),
-       url("Inter-Bold.ttf") format("truetype");
-  font-weight: bold;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #000;
-    --panel-bg: #222;
-    --almost-bg: #666;
     --fg: #fff;
     --accent: yellow;
     --toread-bg: var(--panel-bg);
@@ -30,9 +14,7 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg: #f5f5f5;
-    --panel-bg: #fff;
-    --almost-bg: #999;
+    --bg: #fff;
     --fg: #000;
     --accent: blue;
     --toread-bg: var(--panel-bg);
@@ -51,7 +33,9 @@
   --s4: 2rem;
   --s5: 4rem;
 
-  --font: "Inter", Arial, sans-serif;
+  --font-sans: droid sans, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  --font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+  --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
 
 * {
@@ -72,7 +56,8 @@ html {
 body {
   color: var(--fg);
   line-height: 1;
-  font-family: var(--font);
+  font-family: var(--font-sans);
+  font-size: 1.3rem;
   max-width: 1040px;
   margin: 0 auto;
   padding-top: var(--s4);
@@ -135,10 +120,9 @@ h1, h2, h3 {
 }
 
 h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding-bottom: var(--s2);
   margin-bottom: var(--s2);
-  border-bottom: 2px solid var(--almost-bg)
 }
 
 h2 {
@@ -163,46 +147,41 @@ hr {
 }
 
 section.Project {
-  background-color: var(--panel-bg);
   border: 2px solid var(--fg);
-  box-shadow: 2px 2px var(--almost-bg);
   margin-top: var(--s4);
   padding: var(--s2);
 }
 
-#TOC > ul,
-section.Project ul
-{
-  display: flex;
-  gap: var(--s2);
-  list-style: none;
-  align-items: stretch;
+#TOC > ul > li {
+  list-style: square;
+  list-style-position: inside;
+  margin: var(--s2) 0;
 }
 
-#TOC > ul > li {
-  flex: 1;
+section.Project ul {
+  display: flex;
+  list-style: none;
+}
+
+section.Project ul > li + li {
+  margin-left: var(--s2);
 }
 
 #TOC > ul > li a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   text-decoration: none;
-  padding: var(--s1);
-  height: 100%;
-  background-color: var(--panel-bg);
-  border: 2px solid var(--accent);
-  box-shadow: 2px 2px var(--almost-bg);
-  transition: background-color .2s ease-out, color .2s ease-out;
 }
 
 #TOC > ul > li a:hover {
-  background-color: var(--accent);
-  color: var(--panel-bg);
+  text-decoration: underline;
 }
 
 .Project > p > a {
   display: inline-block;
+  text-decoration: none;
+}
+
+.Project > p > a:hover {
+  text-decoration: underline;
 }
 
 .Project ul {
@@ -226,8 +205,7 @@ section.Project ul
 .Board h3 {
   list-style: none;
   position: relative;
-  font-size: 0.9rem;
-  padding: var(--s1);
+  padding: var(--s2);
 }
 
 section.Board {
@@ -241,7 +219,6 @@ section.Board .level3 {
   border-top: 2px solid var(--fg);
   border-left: 2px solid var(--fg);
   border-right: 2px solid var(--fg);
-  box-shadow: 2px 2px var(--almost-bg);
 }
 
 section.Board .level3 h3 {
@@ -276,5 +253,4 @@ section.Board > section:nth-of-type(3) {
 
 footer {
   padding-top: var(--s2);
-  border-top: 2px solid var(--almost-bg)
 }

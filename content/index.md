@@ -1,8 +1,8 @@
 ---
 title: ~Carlo Ascani
 intro: |
-    <p>I am a web developer, working with text editors since the early 2010s.</p>
-    <p>I am currently located in Vienna, Austria.</p>
+    <p>I am a <b>web developer</b>, working with text editors since the early 2010s.</p>
+    <p>I am currently located in <b>Vienna</b>, Austria.</p>
     <p>Find me on libera.chat as <b>carloratm</b>.</p>
 
 ---
