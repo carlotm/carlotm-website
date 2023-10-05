@@ -3,12 +3,6 @@
     --bg: #000;
     --fg: #fff;
     --accent: yellow;
-    --toread-bg: var(--panel-bg);
-    --toread-fg: var(--fg);
-    --reading-bg: var(--panel-bg);
-    --reading-fg: var(--fg);
-    --read-bg: var(--panel-bg);
-    --read-fg: var(--fg);
   }
 }
 
@@ -17,12 +11,6 @@
     --bg: #fff;
     --fg: #000;
     --accent: blue;
-    --toread-bg: var(--panel-bg);
-    --toread-fg: var(--fg);
-    --reading-bg: var(--panel-bg);
-    --reading-fg: var(--fg);
-    --read-bg: var(--panel-bg);
-    --read-fg: var(--fg);
   }
 }
 
@@ -130,7 +118,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 h3 + p {
@@ -147,15 +135,10 @@ hr {
 }
 
 section.Project {
-  border: 2px solid var(--fg);
+  margin-bottom: var(--s4);
   margin-top: var(--s4);
-  padding: var(--s2);
-}
-
-#TOC > ul > li {
-  list-style: square;
-  list-style-position: inside;
-  margin: var(--s2) 0;
+  padding-left: var(--s2);
+  border-left: var(--s1) solid var(--fg);
 }
 
 section.Project ul {
@@ -165,14 +148,6 @@ section.Project ul {
 
 section.Project ul > li + li {
   margin-left: var(--s2);
-}
-
-#TOC > ul > li a {
-  text-decoration: none;
-}
-
-#TOC > ul > li a:hover {
-  text-decoration: underline;
 }
 
 .Project > p > a {
