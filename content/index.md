@@ -8,12 +8,3 @@ intro: |
 ---
 
 include(content/recent-projects.md)
-
-## Technical readings {.Board}
-
-include(content/readings-technical-kanban.md)
-
-## Fictional readings {.Board}
-
-include(content/readings-fictional-kanban.md)
-

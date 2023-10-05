@@ -4,7 +4,7 @@ template = $(abspath ./assets/page_template.html)
 public_dir = $(abspath ./public)
 pandoc_opts = --from markdown \
 			  --resource-path=$(abspath ./assets) \
-				--embed-resources --standalone \
+			  --embed-resources --standalone \
 			  --section-divs \
 			  --template=$(template) \
 			  --toc --toc-depth=2 \
