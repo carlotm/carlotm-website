@@ -10,7 +10,7 @@ pandoc_opts = --from markdown \
 			  --toc --toc-depth=2 \
 			  --css $(pdf_css)
 
-.PHONY: all clean site deploy dev
+.PHONY: all clean site deploy
 
 all: clean $(public_dir)/index.html
 
@@ -27,6 +27,3 @@ $(public_dir)/index.html: /tmp/full.md $(template)
 
 deploy: all
 	scp -r public/* tilde.club:public_html/
-
-dev: all
-	cd public && python -m http.server
