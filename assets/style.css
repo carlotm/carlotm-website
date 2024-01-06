@@ -1,20 +1,25 @@
-@media (prefers-color-scheme: dark) {
-  :root {
+@media (prefers-color-scheme: dark)
+{
+  :root
+  {
     --bg: #000;
     --fg: #fff;
     --accent: yellow;
   }
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
+@media (prefers-color-scheme: light)
+{
+  :root
+  {
     --bg: #fff;
     --fg: #000;
     --accent: blue;
   }
 }
 
-:root {
+:root
+{
   --s1: 0.5rem;
   --s2: 1rem;
   --s3: 1.6rem;
@@ -26,7 +31,8 @@
   --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
 
-* {
+*
+{
   margin: 0;
   padding: 0;
   border: 0;
@@ -37,11 +43,13 @@
   box-sizing: border-box;
 }
 
-html {
+html
+{
   background-color: var(--bg);
 }
 
-body {
+body
+{
   color: var(--fg);
   line-height: 1;
   font-family: var(--font-sans);
@@ -51,123 +59,151 @@ body {
   padding-top: var(--s4);
 }
 
-body > * {
+body > *
+{
   padding-left: var(--s4);
   padding-right: var(--s4);
   margin-bottom: var(--s5);
 }
 
-a:focus, a:active {
+a:focus
+, a:active
+{
   outline: 2px solid var(--accent);
 }
 
-ol,
-ul {
+ol
+, ul
+{
   list-style: disc;
   list-style-position: inside;
 }
 
-blockquote,
-q {
+blockquote
+, q
+{
   quotes: none;
 }
 
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
+blockquote:before
+, blockquote:after
+, q:before
+, q:after
+{
   content: "";
   content: none;
 }
 
-table {
+table
+{
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-b,
-strong {
+b
+, strong
+{
   font-weight: bold;
 }
 
-i,
-em {
+i
+, em
+{
   font-style: italic;
 }
 
-img {
+img
+{
   vertical-align: middle;
 }
 
-p {
+p
+{
   line-height: 1.6;
 }
 
-h1, h2, h3 {
+h1
+, h2
+, h3
+{
   font-weight: bold;
 }
 
-h1 {
+h1
+{
   font-size: 2rem;
   padding-bottom: var(--s2);
   margin-bottom: var(--s2);
 }
 
-h2 {
+h2
+{
   font-size: 1.5rem;
 }
 
-h3 {
+h3
+{
   font-size: 1.3rem;
 }
 
-h3 + p {
+h3 + p
+{
   margin-top: var(--s1);
 }
 
-a {
+a
+{
   color: var(--accent);
 }
 
-hr {
+hr
+{
   display: none;
   visibility: hidden;
 }
 
-section.Project {
+section.Project
+{
   margin-bottom: var(--s4);
   margin-top: var(--s4);
   padding-left: var(--s2);
   border-left: var(--s1) solid var(--fg);
 }
 
-section.Project ul {
+section.Project ul
+{
   display: flex;
   list-style: none;
 }
 
-section.Project ul > li + li {
+section.Project ul > li + li
+{
   margin-left: var(--s2);
 }
 
-.Project > p > a {
+.Project > p > a
+{
   display: inline-block;
   text-decoration: none;
 }
 
-.Project > p > a:hover {
+.Project > p > a:hover
+{
   text-decoration: underline;
 }
 
-.Project ul {
+.Project ul
+{
   color: var(--black-l);
 }
 
-.Project ul li {
+.Project ul li
+{
   margin-top: var(--s1);
   opacity: 0.6;
 }
 
-footer {
-  padding-top: var(--s2);
+footer
+{
+  padding-top: var(--s1);
 }
