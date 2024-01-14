@@ -5,3 +5,5 @@ intro: |
     <p>I am currently located in <b>Vienna</b>, Austria.</p>
     <p>Find me on libera.chat and oftc as <b>carloratm</b>.</p>
 ---
+
+include(content/toy-projects.md)
