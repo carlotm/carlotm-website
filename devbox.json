@@ -3,7 +3,8 @@
     "m4@latest",
     "pandoc@latest",
     "python311Packages.weasyprint@latest",
-    "glibcLocales@latest"
+    "glibcLocales@latest",
+    "wkhtmltopdf-bin@latest"
   ],
   "shell": {
     "init_hook": [
