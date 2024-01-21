@@ -31,3 +31,11 @@ A game where you have to align 3 or more hippos of the same color.
 - React
 - HTML
 - CSS
+
+### Vuestermind [Website](https://vuestermind.netlify.app) [Source code](https://github.com/carlotm/vuestermind) {.Project}
+
+Aa vue implementation of the board game Master Mind
+
+- Vue
+- HTML
+- CSS
