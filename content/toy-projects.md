@@ -16,6 +16,14 @@ Umbra is a multi box-shadow generator.
 - HTML
 - CSS
 
+### Murder She Wrote Killers [Website](https://murder-she-wrote.fly.dev) [Source code](https://github.com/carlotm/murder-she-wrote) {.Project}
+
+Finally a website that spoils every Murder She Wrote episodes killer.
+
+- Elixir (Phoenix LiveView)
+- HTML
+- CSS
+
 ### Lazy Speaker Slides [Website](https://lazy-speaker-slides.netlify.app) [Source code](https://github.com/carlotm/lazy-speaker-slides) {.Project}
 
 Create presentations in seconds using a markdown syntax.
