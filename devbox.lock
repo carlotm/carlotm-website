@@ -25,6 +25,47 @@
       "source": "devbox-search",
       "version": "59.0"
     },
+    "python312Packages.weasyprint@latest": {
+      "last_modified": "2024-01-14T03:55:27Z",
+      "resolved": "github:NixOS/nixpkgs/dd5621df6dcb90122b50da5ec31c411a0de3e538#python312Packages.weasyprint",
+      "source": "devbox-search",
+      "version": "60.2",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/p257nwyk9ajmjxys0vwkdkgizidlz0gw-python3.12-weasyprint-60.2"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/aai698qyayb44rfxqv9lx7xnl775dj51-python3.12-weasyprint-60.2"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/7aiwv6pg498avwnil0xfylkhz034ydqi-python3.12-weasyprint-60.2"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/kq8vcj4qfa45bm06lq8s2hvaqnzrvp44-python3.12-weasyprint-60.2"
+        }
+      }
+    },
+    "python@3.12.1": {
+      "last_modified": "2024-01-14T03:55:27Z",
+      "plugin_version": "0.0.3",
+      "resolved": "github:NixOS/nixpkgs/dd5621df6dcb90122b50da5ec31c411a0de3e538#python312",
+      "source": "devbox-search",
+      "version": "3.12.1",
+      "systems": {
+        "aarch64-darwin": {
+          "store_path": "/nix/store/pikp0zcfmr1xxws10j293zhh67y1gha2-python3-3.12.1"
+        },
+        "aarch64-linux": {
+          "store_path": "/nix/store/0lc7w5bz37ajlw59sf14ndms5wmvnc1j-python3-3.12.1"
+        },
+        "x86_64-darwin": {
+          "store_path": "/nix/store/vbbg55b1zms8ylj0zwq8pdc70dpv7sp7-python3-3.12.1"
+        },
+        "x86_64-linux": {
+          "store_path": "/nix/store/r2pbmhh7l7g6f3avk8vg8d33frl4c2sx-python3-3.12.1"
+        }
+      }
+    },
     "wkhtmltopdf-bin@latest": {
       "last_modified": "2024-01-14T03:55:27Z",
       "resolved": "github:NixOS/nixpkgs/dd5621df6dcb90122b50da5ec31c411a0de3e538#wkhtmltopdf-bin",

@@ -1,4 +1,4 @@
-# My recent toy projects
+## Toy projects
 
 ### Compiling [Website](https://carlotm.github.io/compiling) - [Source code](https://github.com/carlotm/compiling) {.Project}
 
@@ -24,15 +24,15 @@ Finally a website that spoils every Murder She Wrote episodes killer.
 - HTML
 - CSS
 
-### Lazy Speaker Slides [Website](https://lazy-speaker-slides.netlify.app) [Source code](https://github.com/carlotm/lazy-speaker-slides) {.Project}
+### Lazy Speaker Slides [Website](https://carlotm.github.io/lazy-speaker-slides) [Source code](https://github.com/carlotm/lazy-speaker-slides) {.Project}
 
 Create presentations in seconds using a markdown syntax.
 
-- Vue
+- Elm
 - HTML
 - CSS
 
-### Reanimact [Website](https://reanimact.netlify.app) [Source code](https://github.com/carlotm/reanimact) {.Project}
+### Reanimact [Website](https://carlotm.github.io/reanimact) [Source code](https://github.com/carlotm/reanimact) {.Project}
 
 A game where you have to align 3 or more hippos of the same color.
 
@@ -40,7 +40,7 @@ A game where you have to align 3 or more hippos of the same color.
 - HTML
 - CSS
 
-### Vuestermind [Website](https://vuestermind.netlify.app) [Source code](https://github.com/carlotm/vuestermind) {.Project}
+### Vuestermind [Website](https://carlotm.github.io/vuestermind/) [Source code](https://github.com/carlotm/vuestermind) {.Project}
 
 Aa vue implementation of the board game Master Mind
 
