@@ -19,6 +19,6 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
-          source: _build/*
-          target: public_html/
+          source: _build/index.html
+          target: public_html/index.html
           overwrite: true
