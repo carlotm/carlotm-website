@@ -5,10 +5,19 @@ jobs:
     name: Build website
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Install devbox
         uses: jetify-com/devbox-install-action@v0.9.0
 
       - name: Build app
         run: devbox run build
+
+      - name: copy file via ssh password
+        uses: appleboy/scp-action@v0.1.7
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USER }}
+          key: ${{ secrets.KEY }}
+          source: "_build/*"
+          target: "public_html/"
