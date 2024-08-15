@@ -19,6 +19,6 @@ jobs:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           key: ${{ secrets.KEY }}
-          source: _build/index.html
-          target: public_html/index.html
+          source: public_html
+          target: /home/carloratm/
           overwrite: true
