@@ -1,0 +1,11 @@
+name: Build and deploy
+on: [push]
+jobs:
+  build:
+    name: Build website
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: maxheld83/pandoc@v2
+        with:
+          args: "--help"
