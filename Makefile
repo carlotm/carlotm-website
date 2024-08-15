@@ -15,15 +15,11 @@ pandoc_opts = --from markdown \
 all: clean $(public_dir)/favicon.ico $(public_dir)/index.html
 
 clean:
-	rm -f /tmp/full.md
 	rm -rf $(public_dir)
 	mkdir -p $(public_dir)
 
-$(public_dir)/index.html: /tmp/full.md $(template)
-	pandoc $(pandoc_opts) $< -o $@
+$(public_dir)/index.html: $(content_files) $(template)
+	pandoc $(pandoc_opts) $(content_files) > $@
 
 $(public_dir)/favicon.ico: assets/favicon.ico
 	cp $< $@
-
-/tmp/full.md: $(content_files)
-	m4 $< > $@

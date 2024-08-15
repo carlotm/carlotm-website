@@ -1,6 +1,5 @@
 {
   "packages": [
-    "m4@latest",
     "pandoc@latest",
     "python311Packages.weasyprint@latest",
     "glibcLocales@latest",

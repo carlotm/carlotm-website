@@ -20,5 +20,3 @@ I am a **web developer**, working with text editors since the early 2010s.
 I am currently located in **Vienna**, Austria.
 
 Find me on libera.chat and oftc as **carloratm**.
-
-include(content/toy-projects.md)
