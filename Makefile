@@ -1,6 +1,6 @@
 content_files = $(wildcard content/*.md)
 pdf_css = $(abspath ./assets/style.css)
-public_dir = $(abspath ./public)
+public_dir = $(abspath ./_build)
 pandoc_opts = --from markdown \
 			  --resource-path=$(abspath ./assets) \
 			  --embed-resources \
