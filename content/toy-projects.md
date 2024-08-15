@@ -1,6 +1,6 @@
 ## Toy projects
 
-### Compiling [Website](https://carlotm.github.io/compiling) - [Source code](https://github.com/carlotm/compiling) {.Project}
+### Compiling [Website](https://carlotm.github.io/compiling) [Source code](https://github.com/carlotm/compiling) {.Project}
 
 Compiling is a puzzle game to play while compiling.
 
@@ -8,7 +8,7 @@ Compiling is a puzzle game to play while compiling.
 - HTML
 - CSS
 
-### Umbra [Website](https://carlotm.github.io/umbra) - [Source code](https://github.com/carlotm/umbra) {.Project}
+### Umbra [Website](https://carlotm.github.io/umbra) [Source code](https://github.com/carlotm/umbra) {.Project}
 
 Umbra is a multi box-shadow generator.
 
@@ -42,7 +42,7 @@ A game where you have to align 3 or more hippos of the same color.
 
 ### Vuestermind [Website](https://carlotm.github.io/vuestermind/) [Source code](https://github.com/carlotm/vuestermind) {.Project}
 
-Aa vue implementation of the board game Master Mind
+A vue implementation of the board game Master Mind
 
 - Vue
 - HTML

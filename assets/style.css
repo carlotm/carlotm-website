@@ -1,209 +1,203 @@
 @media (prefers-color-scheme: dark)
 {
-  :root
-  {
-    --bg: #000;
-    --fg: #fff;
-    --accent: yellow;
-  }
+	:root
+	{
+		--bg: #000;
+		--bg-mod: #222;
+		--fg: #fff;
+		--accent: yellow;
+	}
 }
 
 @media (prefers-color-scheme: light)
 {
-  :root
-  {
-    --bg: #fff;
-    --fg: #000;
-    --accent: blue;
-  }
+	:root
+	{
+		--bg: #fff;
+		--bg-mod: #f4f4f4;
+		--fg: #000;
+		--accent: blue;
+	}
 }
 
 :root
 {
-  --s1: 0.5rem;
-  --s2: 1rem;
-  --s3: 1.6rem;
-  --s4: 2rem;
-  --s5: 4rem;
+	--s1: 0.5rem;
+	--s2: 1rem;
+	--s3: 1.6rem;
+	--s4: 2rem;
+	--s5: 4rem;
 
-  --font-sans: droid sans, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-  --font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-  --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
+	--font-sans: droid sans, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+	--font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+	--font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
 
 *
 {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html
 {
-  background-color: var(--bg);
+	background-color: var(--bg);
 }
 
 body
 {
-  color: var(--fg);
-  line-height: 1;
-  font-family: var(--font-sans);
-  font-size: 1.3rem;
-  max-width: 1040px;
-  margin: 0 auto;
-  padding-top: var(--s4);
-}
-
-body > *
-{
-  padding-left: var(--s4);
-  padding-right: var(--s4);
-  margin-bottom: var(--s5);
-}
-
-a:focus
-, a:active
-{
-  outline: 2px solid var(--accent);
-}
-
-ol
-, ul
-{
-  list-style: disc;
-  list-style-position: inside;
-}
-
-blockquote
-, q
-{
-  quotes: none;
-}
-
-blockquote:before
-, blockquote:after
-, q:before
-, q:after
-{
-  content: "";
-  content: none;
-}
-
-table
-{
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-b
-, strong
-{
-  font-weight: bold;
-}
-
-i
-, em
-{
-  font-style: italic;
-}
-
-img
-{
-  vertical-align: middle;
-}
-
-p
-{
-  line-height: 1.6;
-}
-
-h1
-, h2
-, h3
-{
-  font-weight: bold;
-}
-
-h1
-{
-  font-size: 2rem;
-  padding-bottom: var(--s2);
-  margin-bottom: var(--s2);
-}
-
-h2
-{
-  font-size: 1.5rem;
-}
-
-h3
-{
-  font-size: 1.3rem;
-}
-
-h3 + p
-{
-  margin-top: var(--s1);
+	color: var(--fg);
+	line-height: 1;
+	font-family: var(--font-sans);
+	font-size: 1.3rem;
+	max-width: 800px;
+	margin: 0 auto;
+	display: grid;
+	grid-gap: var(--s5);
+	padding: var(--s4);
 }
 
 a
 {
-  color: var(--accent);
+	color: var(--accent);
 }
 
-hr
+a:focus,
+a:active
 {
-  display: none;
-  visibility: hidden;
+	outline: 2px solid var(--accent);
 }
 
-section.Project
+ol,
+ul
 {
-  margin-bottom: var(--s4);
-  margin-top: var(--s4);
-  padding-left: var(--s2);
-  border-left: var(--s1) solid var(--fg);
+	list-style: disc;
+	list-style-position: inside;
 }
 
-section.Project ul
+blockquote,
+q
 {
-  display: flex;
-  list-style: none;
+	quotes: none;
 }
 
-section.Project ul > li + li
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
 {
-  margin-left: var(--s2);
+	content: "";
+	content: none;
 }
 
-.Project > p > a
+table
 {
-  display: inline-block;
-  text-decoration: none;
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-.Project > p > a:hover
+b,
+strong
 {
-  text-decoration: underline;
+	font-weight: bold;
+}
+
+i,
+em
+{
+	font-style: italic;
+}
+
+img
+{
+	vertical-align: middle;
+}
+
+h1
+{
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+h2
+{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+h3
+{
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.Project:not(h3)
+{
+	border-radius: 3px;
+	box-shadow: 0 0 0 var(--s1) transparent;
+	transition: all .2s;
+	display: grid;
+	grid-gap: var(--s2);
+}
+
+body > section
+{
+	display: grid;
+	grid-gap: var(--s2);
+}
+
+.Project:not(h3):hover
+{
+	background-color: var(--bg-mod);
+	box-shadow: 0 0 0 var(--s2) var(--bg-mod);
+}
+
+h3.Project
+{
+	padding: 0;
+	display: flex;
+	align-items: center;
+	gap: var(--s1);
+}
+
+h3.Project > a
+{
+	font-size: 1.2rem;
+	font-weight: normal;
+}
+
+h3.Project > a:first-of-type
+{
+	margin-left: auto;
 }
 
 .Project ul
 {
-  color: var(--black-l);
+	list-style-type: none;
+	opacity: 0.6;
+	display: flex;
+	gap: var(--s2);
 }
 
-.Project ul li
+#TOC
 {
-  margin-top: var(--s1);
-  opacity: 0.6;
+	margin-top: calc(var(--s4) * -1);
 }
 
-footer
+#TOC ul
 {
-  padding-top: var(--s1);
+	display: flex;
+	flex-direction: column;
+	gap: var(--s1);
+}
+
+#toy-projects
+{
+	grid-gap: var(--s4);
 }
