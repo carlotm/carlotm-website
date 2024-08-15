@@ -5,7 +5,10 @@ jobs:
     name: Build website
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: r-lib/actions/setup-pandoc@v1
-        with:
-          pandoc-version: '3.1.8'
+      - uses: actions/checkout@v3
+
+      - name: Install devbox
+        uses: jetify-com/devbox-install-action@v0.9.0
+
+      - name: Build app
+        run: devbox run build
