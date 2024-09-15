@@ -1,12 +1,8 @@
 {
   "packages": [
     "pandoc@latest",
-    "python311Packages.weasyprint@latest",
     "glibcLocales@latest",
-    "wkhtmltopdf-bin@latest",
-    "python@3.12.1",
-    "python312Packages.weasyprint@latest",
-    "m4@latest"
+    "python311Packages.weasyprint@latest"
   ],
   "shell": {
     "scripts": {
