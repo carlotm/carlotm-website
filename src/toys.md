@@ -1,8 +1,8 @@
 ## Toy projects
 
-### Compiling [Website](https://carlotm.github.io/compiling) [Source code](https://github.com/carlotm/compiling) {.Project}
+### Game of 100 [Website](https://carlotm.github.io/gameof100) [Source code](https://github.com/carlotm/gameof100) {.Project}
 
-Compiling is a puzzle game to play while compiling.
+Game of 100 is a puzzle game to play while bored.
 
 - Elm
 - HTML
