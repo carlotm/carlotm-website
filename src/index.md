@@ -14,4 +14,4 @@ Find me on libera.chat and oftc as **carloratm**.
 
 include(src/toys.md)
 
-include(src/nix.md)
+include(src/nix-flakes.md)
