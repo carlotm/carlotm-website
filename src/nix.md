@@ -1,0 +1,3 @@
+## Notes on Nix
+
+TODO

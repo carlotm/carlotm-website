@@ -28,6 +28,8 @@
 	--s4: 2rem;
 	--s5: 4rem;
 
+	--radius: 4px;
+
 	--font-sans: droid sans, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
 	--font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
 	--font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
@@ -55,12 +57,18 @@ body
 	color: var(--fg);
 	line-height: 1;
 	font-family: var(--font-sans);
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	max-width: 800px;
 	margin: 0 auto;
+	padding: var(--s4);
+	line-height: 1.8;
+}
+
+body,
+main
+{
 	display: grid;
 	grid-gap: var(--s5);
-	padding: var(--s4);
 }
 
 a
@@ -137,76 +145,28 @@ h3
 	font-weight: bold;
 }
 
-code
+section.Project
 {
+	margin-top: var(--s2);
+	padding: var(--s2);
+	border-radius: var(--radius);
 	background-color: var(--bg-mod);
-	border-radius: 3px;
-	display: inline-block;
-	font-family: var(--font-mono);
-	padding: var(--s1);
-}
-
-.Project:not(h3)
-{
-	border-radius: 3px;
-	box-shadow: 0 0 0 var(--s1) transparent;
-	transition: all .2s;
+	line-height: 1;
 	display: grid;
-	grid-gap: var(--s2);
+	grid-gap: var(--s3);
 }
 
-body > section
+section.Project ul
 {
-	display: grid;
-	grid-gap: var(--s2);
-}
-
-.Project:not(h3):hover
-{
-	background-color: var(--bg-mod);
-	box-shadow: 0 0 0 var(--s2) var(--bg-mod);
-}
-
-h3.Project
-{
-	padding: 0;
-	display: flex;
-	align-items: center;
-	gap: var(--s1);
-}
-
-h3.Project > a
-{
-	font-size: 1.2rem;
-	font-weight: normal;
-}
-
-h3.Project > a:first-of-type
-{
-	margin-left: auto;
-}
-
-.Project ul
-{
-	list-style-type: none;
-	opacity: 0.6;
 	display: flex;
 	gap: var(--s2);
+	list-style: none;
+	opacity: 0.6;
 }
 
-#TOC
+section.Project h3 a
 {
-	margin-top: calc(var(--s4) * -1);
-}
-
-#TOC ul
-{
-	display: flex;
-	flex-direction: column;
-	gap: var(--s1);
-}
-
-#toy-projects
-{
-	grid-gap: var(--s4);
+	float: right;
+	display: block;
+	margin-left: var(--s2);
 }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="x-ua-compatible" content="ie=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="author" content="Carlo Ascani" />
+		$if(keywords)$
+		<meta name="keywords" content="$for(keywords)$$keywords$$sep$, $endfor$" />
+		$endif$
+		$if(description-meta)$
+		<meta name="description" content="$description-meta$" />
+		$endif$
+
+		<title>$pagetitle$</title>
+
+		$for(css)$
+			<link rel="stylesheet" href="$css$" />
+		$endfor$
+		<link rel="icon" href="favicon.ico" />
+	</head>
+
+	<body>
+		<header>
+			<h1>~carloratm</h1>
+			<p>
+				The personal web space of Carlo Ascani.
+			</p>
+		</header>
+		$if(toc)$
+		<nav id="TOC" role="directory">
+			<h2>Table of contents</h2>
+			$table-of-contents$
+		</nav>
+		$endif$
+		<main>
+			$body$
+		</main>
+		<footer>
+			<p>
+			This website is made with
+			<a href="https://pandoc.org">pandoc</a>
+			and a
+			<a href="https://raw.githubusercontent.com/carlotm/carlotm-website/main/Makefile">Makefile</a>.
+			</p>
+			<p>
+			It is deployed on <a href="https://tilde.club">tilde.club</a>
+			with <a href="#">Github Actions</a>.
+			</p>
+		</footer>
+	</body>
+</html>
