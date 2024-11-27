@@ -31,3 +31,7 @@ The most common ones are:
 
 * `nixpkgs` which refers to `github:NixOS/nixpkgs/nixpkgs-unstable`
 * `flake-utils` which refers to `github:numtide/flake-utils`
+
+### Flake outputs
+
+TODO
