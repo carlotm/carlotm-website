@@ -1,4 +1,4 @@
-## Notes on Nix Flakes
+## Notes on Nix Flakes {.Notes}
 
 ### What's a flake?
 
