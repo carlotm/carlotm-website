@@ -13,8 +13,8 @@ jobs:
       - name: Install devbox
         uses: jetify-com/devbox-install-action@v0.9.0
 
-      - name: Build app
-        run: devbox run build
+      - name: Build site
+        run: devbox run -- make
 
       - name: copy file via ssh password
         uses: appleboy/scp-action@v0.1.7

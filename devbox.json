@@ -4,10 +4,5 @@
     "glibcLocales@latest",
     "python311Packages.weasyprint@latest",
     "m4@latest"
-  ],
-  "shell": {
-    "scripts": {
-      "build": "make"
-    }
-  }
+  ]
 }
