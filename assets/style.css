@@ -14,7 +14,7 @@
 	:root
 	{
 		--bg: #fff;
-		--bg-mod: #f4f4f4;
+		--bg-mod: #fff7e3;
 		--fg: #000;
 		--accent: blue;
 	}
@@ -58,7 +58,7 @@ body
 	line-height: 1;
 	font-family: var(--font-sans);
 	font-size: 1.2rem;
-	max-width: 800px;
+	max-width: 860px;
 	margin: 0 auto;
 	padding: var(--s4);
 	line-height: 1.8;
@@ -143,6 +143,17 @@ h3
 {
 	font-size: 1.3rem;
 	font-weight: bold;
+}
+
+code
+{
+	font-family: var(--font-mono);
+	word-break: break-all;
+	background-color: var(--bg-mod);
+	display: inline-block;
+	border-radius: var(--radius);
+	padding-left: var(--s1);
+	padding-right: var(--s1);
 }
 
 section.Notes h3
