@@ -19,7 +19,7 @@ Some reference examples are:
 * `path:/home/nix-stuff/my-flake` for a flake on the local machine
 * `github:Organization/a_repo` a git repository
 * `github:Organization/a_repo/a_branch` a git branch
-* `github:Organization/a_repo/d51c83a5d206e882a6f15a282e32b7079f5b6d76` a git commit
+* `github:Organization/a_repo/d51c83a` a git commit
 
 And more...
 
@@ -32,6 +32,26 @@ The most common ones are:
 * `nixpkgs` which refers to `github:NixOS/nixpkgs/nixpkgs-unstable`
 * `flake-utils` which refers to `github:numtide/flake-utils`
 
-### Flake outputs
+### flake.nix structure
 
-TODO
+```
+{
+	description = package description
+	inputs = dependencies
+	outputs = what the flake produces
+	nixConfig = advanced configuration options
+}
+```
+
+### inputs
+
+The inputs set specifies which inputs are needed to build the flake,
+with this syntax:
+
+```
+inputs = {
+	nixpkgs = {url = "github:NixOS/nixpkgs"};
+	flake-utils = {url = "github:numtide/flake-utils"};
+	<name_of_input> = <flake_reference>
+};
+```
