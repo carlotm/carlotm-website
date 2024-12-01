@@ -14,6 +14,4 @@ Find me on libera.chat and oftc as **carloratm**.
 
 changequote("""", """)
 include(src/toys.md)
-
-include(src/nix-flakes.md)
 changequote()

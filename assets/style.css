@@ -2,10 +2,10 @@
 {
 	:root
 	{
-		--bg: #000;
-		--bg-mod: #222;
-		--fg: #fff;
-		--accent: yellow;
+		--color-bg: #000;
+		--color-bg-subtle: #222;
+		--color-fg: #fff;
+		--color-accent: yellow;
 	}
 }
 
@@ -13,26 +13,21 @@
 {
 	:root
 	{
-		--bg: #fff;
-		--bg-mod: #fff7e3;
-		--fg: #000;
-		--accent: blue;
+		--color-bg: #fff;
+		--color-bg-subtle: #fff7e3;
+		--color-fg: #000;
+		--color-accent: blue;
 	}
 }
 
 :root
 {
-	--s1: 0.5rem;
-	--s2: 1rem;
-	--s3: 1.6rem;
-	--s4: 2rem;
-	--s5: 4rem;
-
+	--space1: 0.5rem;
+	--space2: 1rem;
+	--space3: 1.6rem;
+	--space4: 2rem;
+	--space5: 4rem;
 	--radius: 4px;
-
-	--font-sans: droid sans, -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-	--font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-	--font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
 }
 
 *
@@ -49,18 +44,17 @@
 
 html
 {
-	background-color: var(--bg);
+	background-color: var(--color-bg);
 }
 
 body
 {
-	color: var(--fg);
-	line-height: 1;
-	font-family: var(--font-sans);
+	color: var(--color-fg);
+	font-family: system-ui, sans-serif;
 	font-size: 1.2rem;
 	max-width: 860px;
 	margin: 0 auto;
-	padding: var(--s4);
+	padding: var(--space4);
 	line-height: 1.8;
 }
 
@@ -68,18 +62,18 @@ body,
 main
 {
 	display: grid;
-	grid-gap: var(--s5);
+	grid-gap: var(--space5);
 }
 
 a
 {
-	color: var(--accent);
+	color: var(--color-accent);
 }
 
 a:focus,
 a:active
 {
-	outline: 2px solid var(--accent);
+	outline: 2px solid var(--color-accent);
 }
 
 ol,
@@ -149,33 +143,33 @@ code
 {
 	font-family: var(--font-mono);
 	word-break: break-all;
-	background-color: var(--bg-mod);
+	background-color: var(--color-bg-subtle);
 	display: inline-block;
 	border-radius: var(--radius);
-	padding-left: var(--s1);
-	padding-right: var(--s1);
+	padding-left: var(--space1);
+	padding-right: var(--space1);
 }
 
 section.Notes h3
 {
-	margin-top: var(--s4);
+	margin-top: var(--space4);
 }
 
 section.Project
 {
-	margin-top: var(--s2);
-	padding: var(--s2);
+	margin-top: var(--space2);
+	padding: var(--space2);
 	border-radius: var(--radius);
-	background-color: var(--bg-mod);
+	background-color: var(--color-bg-subtle);
 	line-height: 1;
 	display: grid;
-	grid-gap: var(--s3);
+	grid-gap: var(--space3);
 }
 
 section.Project ul
 {
 	display: flex;
-	gap: var(--s2);
+	gap: var(--space2);
 	list-style: none;
 	opacity: 0.6;
 }
@@ -184,5 +178,5 @@ section.Project h3 a
 {
 	float: right;
 	display: block;
-	margin-left: var(--s2);
+	margin-left: var(--space2);
 }
