@@ -52,17 +52,18 @@ body
 	color: var(--color-fg);
 	font-family: system-ui, sans-serif;
 	font-size: 1.2rem;
-	max-width: 860px;
-	margin: 0 auto;
 	padding: var(--space4);
 	line-height: 1.8;
 }
 
-body,
-main
+header,
+#TOC,
+#contacts,
+#toy-projects,
+footer
 {
-	display: grid;
-	grid-gap: var(--space5);
+	max-width: 800px;
+	margin: 0 auto var(--space5) auto;
 }
 
 a
